@@ -5,5 +5,4 @@ const app = express();
 
 app.use(carsRoutes);
 app.use(express.static('public'));
-app.listen(3001);
-
+app.listen(3000);

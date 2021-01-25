@@ -4,7 +4,10 @@ const CarsModel = require('../model/CarsModel');
 
 router.post('/cars/:brand/:model', (req, res) => {
     console.log(req.params)
-    // TODO: implement
+    const carsModel = new CarsModel();
+    carsModel.addModel(req.params.brand, req.params.model);
+    res.status(203);
+    res.send()
 });
 
 router.delete('/cars/:brand/:model', (req, res) => {
