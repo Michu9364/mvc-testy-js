@@ -1,1 +1,1 @@
-Michał Olearczyk 3cT - Homework
+Unit Testing JavaScript in ASP.NET MVC exercise.
